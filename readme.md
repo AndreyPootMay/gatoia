@@ -1,10 +1,11 @@
 # Juego de gato
 
 El código se dividirá en 4 partes:
-	1. Formato del juego normalmente.
-	2. ¿Cómo determino a un ganador?
-	3. Crear una IA básica y un anuncio del ganador.
-	4. Utilizar el algoritmo Minimax.
+	
+ 1. Formato del juego normalmente.
+ 2. ¿Cómo determino a un ganador?
+ 3. Crear una IA básica y un anuncio del ganador.
+ 4. Utilizar el algoritmo Minimax.
 
 ## Fuentes bibliográficas:
 
