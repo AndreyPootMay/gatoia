@@ -29,7 +29,7 @@ startGame();
 
 function selectSym(sym){
   huPlayer = sym;
-  aiPlayer = sym==='O' ? 'X' :'O';
+  aiPlayer = sym === 'O' ? 'X' :'O';
   origBoard = Array.from(Array(9).keys());
   for (let i = 0; i < cells.length; i++) {
     cells[i].addEventListener('click', turnClick, false);
@@ -104,10 +104,10 @@ function bestSpot(){
 function checkTie() {
   if (emptySquares().length === 0){
     for (cell of cells) {
-      cell.style.backgroundColor = "green";
+      cell.style.backgroundColor = "yellow";
       cell.removeEventListener('click',turnClick, false);
     }
-    declareWinner("Has ganado.");
+    declareWinner("Empate.");
     return true;
   } 
   return false;
